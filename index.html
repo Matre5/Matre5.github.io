@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matre I Aiguokhian</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #606c38; color: #d4a373; padding: 2rem 1rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 4rem 1rem; max-width: 800px; margin: auto; }
+    .projects { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .card { background: #ccd5ae; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card h3 { margin-top: 0; color: #2f3e46; }
+    footer { background: #333; color: #eee; text-align: center; padding: 1rem; }
+    .btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #d4a373; color: #2f3e46; border-radius: 4px; text-decoration: none; }
+
+    @media (max-width: 600px) {
+        header h1 { font-size: 2rem; }
+        nav a { display: block; margin: 0.5rem 0; }
+        .projects { grid-template-columns: 1fr; }
+        .blogs { grid-template-columns: 1fr; }
+        section { padding: 2rem 1rem; }
+      }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Matre Aiguokhian</n><nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#blogs">Blogs</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+
+        I'm a Data Scientist/Analyst with a passion for visual storytelling and using data to solve real-life problems.
+        <br>
+        From rigorous data scraping and cleaning to designing interactive dashboards, I love transforming raw data into meaningful insights that anyone can understand.  
+        <br>
+        Whether it’s breaking down player performance in football, analyzing skincare ingredients, tracking financial records or building needed data tools,
+        I enjoy using data as a lens to explore the world and solve its problems.
+        <br>
+        Beyond the screen, I love sports, watching a good movie, God, and getting lost in a good novel.
+       
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>Data Scraper</h3>
+        <p>Python scripts to scrape and clean football stats from FBref and Transfermarkt.</p>
+        <a class="btn" href="https://github.com/Matre5/MSalah_Data_Scrapper.git">GitHub Repo</a>
+      </div>
+      <div class="card">
+        <h3>Rx-Sync</h3>
+        <p>A symptom-based medicine recommendation system that supports over 50 languages, helping users find the right medication for their symptoms quickly and accurately.</p>
+        <a class="btn" href="https://github.com/Matre5/SBMRS.git">GitHub Repo</a>
+      </div>
+      <div class="card">
+        <h3>Outlier Detection</h3>
+        <p>This tool identifies anomalies in election datasets using statistical and machine learning techniques.</p>
+        <a class="btn" href="https://github.com/Matre5/Outlier-Detection.git">GitHub Repo</a>
+      </div>
+      <div class="card">
+        <h3>Covid Analysis using SQL</h3>
+        <p>This project contains SQL queries used to analyze the impact of COVID-19 across different countries and continents.</p>
+        <a class="btn" href="https://github.com/Matre5/CovidAnalysis.git">GitHub Repo</a>
+      </div>
+
+      <div class="card">
+        <h3>Sentiment Analysis</h3>
+        <p>A Python-driven pipeline that gathers tweets, processes text with NLP, and visualizes sentiment trends to gauge public opinion.</p>
+        <a class="btn" href="https://github.com/Matre5/Twitter_sentiment_analysis.git">GitHub Repo</a>
+      </div>
+
+      <div class="card">
+        <h3>Customer Segmentation Analysis</h3>
+        <p>A Tableau dashboard that visualizes the financial performance of a fitness gym, tracking revenue, expenses, and member statistics.</p>
+        <a class="btn" href="https://public.tableau.com/views/FitnessGym_FinanceReport2023/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blogs">
+    <h2>Blogs</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Salah: Evolution Through Data</h3>
+        <p>Player analysis blog on Medium, featuring interactive Tableau dashboards and deep dives into Mohamed Salah’s career metrics.</p>
+        <a class="btn" href="https://medium.com/@maiguokhian4/salah-the-evolution-of-liverpool-s-legend-through-data-4a27f9853769">View Blog</a>
+      </div>
+
+      <div class="card">
+        <h3>Decoding Economic Interplay: Nigerian Economic Analysis</h3>
+        <p>An analytical dashboard blog on Nigeria’s core economic indicators—GDP, inflation, interest rates, and exchange rates—to reveal their interactions.</p>
+        <a class="btn" href="https://real-money-828.notion.site/Decoding-Economic-Interplay-A-Financial-Analysis-of-Nigerian-Key-Economic-Variables-712e56bd86384528be6b32a54e897a72">View Blog</a>
+      </div>
+     
+     
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to connect on <a href="https://www.linkedin.com/in/matre-aiguokhian-iyen" target="_blank">LinkedIn</a> or <a href="mailto:aigmatre5@gmail.com"> email </a> me.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Matre Aiguokhian. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
