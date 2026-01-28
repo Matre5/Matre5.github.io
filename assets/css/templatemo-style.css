@@ -13,14 +13,23 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/milky-way.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    position: relative;
 }
 
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
 
 /* Basic */
 
